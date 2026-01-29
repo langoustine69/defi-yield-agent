@@ -1,0 +1,146 @@
+{
+  "lastUpdated": "2026-01-29T13:00:00Z",
+  "protocols": [
+    {
+      "name": "Aave V3",
+      "chain": "Ethereum",
+      "category": "Lending",
+      "pools": [
+        {"asset": "USDC", "apy": 4.2, "tvl": 2800000000, "risk": "low"},
+        {"asset": "USDT", "apy": 3.9, "tvl": 1900000000, "risk": "low"},
+        {"asset": "ETH", "apy": 2.1, "tvl": 4200000000, "risk": "low"},
+        {"asset": "wBTC", "apy": 0.8, "tvl": 890000000, "risk": "low"}
+      ]
+    },
+    {
+      "name": "Compound V3",
+      "chain": "Ethereum",
+      "category": "Lending",
+      "pools": [
+        {"asset": "USDC", "apy": 3.8, "tvl": 1600000000, "risk": "low"},
+        {"asset": "ETH", "apy": 1.9, "tvl": 980000000, "risk": "low"}
+      ]
+    },
+    {
+      "name": "Morpho Blue",
+      "chain": "Ethereum",
+      "category": "Lending",
+      "pools": [
+        {"asset": "USDC", "apy": 5.1, "tvl": 890000000, "risk": "medium"},
+        {"asset": "wstETH", "apy": 3.2, "tvl": 1200000000, "risk": "low"}
+      ]
+    },
+    {
+      "name": "Pendle",
+      "chain": "Ethereum",
+      "category": "Yield Trading",
+      "pools": [
+        {"asset": "stETH-PT", "apy": 6.8, "tvl": 450000000, "risk": "medium"},
+        {"asset": "eETH-PT", "apy": 7.2, "tvl": 380000000, "risk": "medium"},
+        {"asset": "sDAI-PT", "apy": 5.5, "tvl": 290000000, "risk": "low"}
+      ]
+    },
+    {
+      "name": "Ethena",
+      "chain": "Ethereum",
+      "category": "Synthetic Dollar",
+      "pools": [
+        {"asset": "sUSDe", "apy": 12.5, "tvl": 3200000000, "risk": "medium"},
+        {"asset": "USDe", "apy": 0, "tvl": 5800000000, "risk": "medium"}
+      ]
+    },
+    {
+      "name": "Ondo Finance",
+      "chain": "Ethereum",
+      "category": "RWA",
+      "pools": [
+        {"asset": "USDY", "apy": 4.8, "tvl": 680000000, "risk": "low"},
+        {"asset": "OUSG", "apy": 4.5, "tvl": 420000000, "risk": "low"}
+      ]
+    },
+    {
+      "name": "Mountain Protocol",
+      "chain": "Ethereum",
+      "category": "RWA",
+      "pools": [
+        {"asset": "USDM", "apy": 5.0, "tvl": 180000000, "risk": "low"}
+      ]
+    },
+    {
+      "name": "Maple Finance",
+      "chain": "Ethereum",
+      "category": "RWA",
+      "pools": [
+        {"asset": "USDC-HighYield", "apy": 8.5, "tvl": 120000000, "risk": "high"},
+        {"asset": "USDC-BlueChip", "apy": 6.2, "tvl": 95000000, "risk": "medium"}
+      ]
+    },
+    {
+      "name": "Aerodrome",
+      "chain": "Base",
+      "category": "DEX",
+      "pools": [
+        {"asset": "USDC/USDbC", "apy": 8.2, "tvl": 45000000, "risk": "low"},
+        {"asset": "ETH/USDC", "apy": 22.5, "tvl": 89000000, "risk": "medium"},
+        {"asset": "cbETH/ETH", "apy": 4.8, "tvl": 120000000, "risk": "low"}
+      ]
+    },
+    {
+      "name": "Moonwell",
+      "chain": "Base",
+      "category": "Lending",
+      "pools": [
+        {"asset": "USDC", "apy": 5.8, "tvl": 180000000, "risk": "low"},
+        {"asset": "ETH", "apy": 2.4, "tvl": 95000000, "risk": "low"}
+      ]
+    }
+  ],
+  "treasuryRates": {
+    "US": {
+      "1M": 4.32,
+      "3M": 4.28,
+      "6M": 4.15,
+      "1Y": 4.02,
+      "2Y": 3.89,
+      "5Y": 3.75,
+      "10Y": 3.82,
+      "30Y": 4.12
+    },
+    "source": "Federal Reserve",
+    "asOf": "2026-01-29"
+  },
+  "rwaOpportunities": [
+    {
+      "name": "Backed Finance bIB01",
+      "type": "Tokenized Treasury ETF",
+      "yield": 4.5,
+      "minInvestment": 100000,
+      "chain": "Ethereum",
+      "accredited": true
+    },
+    {
+      "name": "Centrifuge Pools",
+      "type": "Real Estate/Invoice",
+      "yield": 8.2,
+      "minInvestment": 5000,
+      "chain": "Ethereum",
+      "accredited": false
+    },
+    {
+      "name": "Goldfinch",
+      "type": "Emerging Market Loans",
+      "yield": 11.5,
+      "minInvestment": 1000,
+      "chain": "Ethereum",
+      "accredited": false
+    },
+    {
+      "name": "Plume Network",
+      "type": "Multi-Asset RWA",
+      "yield": 7.8,
+      "minInvestment": 500,
+      "chain": "Plume",
+      "accredited": false
+    }
+  ]
+}

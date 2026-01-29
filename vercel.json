@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/index.ts"
+    }
+  ],
+  "env": {
+    "PAYMENTS_RECEIVABLE_ADDRESS": "0x0C3D21e8835990427405F6FeA649f1fb8CB30ED6"
+  }
+}

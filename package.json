@@ -1,0 +1,16 @@
+{
+  "name": "defi-yield-agent",
+  "version": "1.0.0",
+  "description": "DeFi Yield Research Agent - Real-time yields, RWA opportunities, treasury rates",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target node"
+  },
+  "dependencies": {
+    "@lucid-agents/hono": "^0.7.13",
+    "hono": "^4.0.0",
+    "viem": "^2.44.4"
+  }
+}
