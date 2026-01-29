@@ -361,7 +361,7 @@ addEntrypoint({
   },
 });
 
-// Export for Bun
+// Export for Bun server
 const port = Number(process.env.PORT ?? 3000);
 console.log(`🦞 DeFi Yield Agent running on port ${port}`);
 
